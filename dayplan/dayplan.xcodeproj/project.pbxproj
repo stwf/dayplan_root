@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3DB8102A2A81E70002BBE3 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = AA3DB80F2A2A81E70002BBE3 /* LiveViewNative */; };
+		AA3DB8122A2A81E70002BBE3 /* BuiltinRegistryGenerator in Frameworks */ = {isa = PBXBuildFile; productRef = AA3DB8112A2A81E70002BBE3 /* BuiltinRegistryGenerator */; };
+		AA644F512A213F290099F023 /* dayplanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA644F502A213F290099F023 /* dayplanApp.swift */; };
+		AA644F532A213F290099F023 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA644F522A213F290099F023 /* Persistence.swift */; };
+		AA644F562A213F290099F023 /* dayplan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA644F542A213F290099F023 /* dayplan.xcdatamodeld */; };
+		AA644F582A213F290099F023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA644F572A213F290099F023 /* ContentView.swift */; };
+		AA644F5A2A213F2A0099F023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA644F592A213F2A0099F023 /* Assets.xcassets */; };
+		AA644F5E2A213F2A0099F023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA644F5D2A213F2A0099F023 /* Preview Assets.xcassets */; };
+		AA644F682A213F2A0099F023 /* dayplanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA644F672A213F2A0099F023 /* dayplanTests.swift */; };
+		AA644F722A213F2A0099F023 /* dayplanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA644F712A213F2A0099F023 /* dayplanUITests.swift */; };
+		AA644F742A213F2A0099F023 /* dayplanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA644F732A213F2A0099F023 /* dayplanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA644F642A213F2A0099F023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA644F452A213F290099F023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA644F4C2A213F290099F023;
+			remoteInfo = dayplan;
+		};
+		AA644F6E2A213F2A0099F023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA644F452A213F290099F023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA644F4C2A213F290099F023;
+			remoteInfo = dayplan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA644F4D2A213F290099F023 /* dayplan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dayplan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA644F502A213F290099F023 /* dayplanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayplanApp.swift; sourceTree = "<group>"; };
+		AA644F522A213F290099F023 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AA644F552A213F290099F023 /* dayplan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dayplan.xcdatamodel; sourceTree = "<group>"; };
+		AA644F572A213F290099F023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA644F592A213F2A0099F023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA644F5B2A213F2A0099F023 /* dayplan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dayplan.entitlements; sourceTree = "<group>"; };
+		AA644F5D2A213F2A0099F023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA644F632A213F2A0099F023 /* dayplanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dayplanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA644F672A213F2A0099F023 /* dayplanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayplanTests.swift; sourceTree = "<group>"; };
+		AA644F6D2A213F2A0099F023 /* dayplanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dayplanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA644F712A213F2A0099F023 /* dayplanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayplanUITests.swift; sourceTree = "<group>"; };
+		AA644F732A213F2A0099F023 /* dayplanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayplanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA644F4A2A213F290099F023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3DB8102A2A81E70002BBE3 /* LiveViewNative in Frameworks */,
+				AA3DB8122A2A81E70002BBE3 /* BuiltinRegistryGenerator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA644F602A213F2A0099F023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA644F6A2A213F2A0099F023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA644F442A213F290099F023 = {
+			isa = PBXGroup;
+			children = (
+				AA644F4F2A213F290099F023 /* dayplan */,
+				AA644F662A213F2A0099F023 /* dayplanTests */,
+				AA644F702A213F2A0099F023 /* dayplanUITests */,
+				AA644F4E2A213F290099F023 /* Products */,
+				AA789A7A2A2A7ED9006ACEE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA644F4E2A213F290099F023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA644F4D2A213F290099F023 /* dayplan.app */,
+				AA644F632A213F2A0099F023 /* dayplanTests.xctest */,
+				AA644F6D2A213F2A0099F023 /* dayplanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA644F4F2A213F290099F023 /* dayplan */ = {
+			isa = PBXGroup;
+			children = (
+				AA644F502A213F290099F023 /* dayplanApp.swift */,
+				AA644F522A213F290099F023 /* Persistence.swift */,
+				AA644F572A213F290099F023 /* ContentView.swift */,
+				AA644F592A213F2A0099F023 /* Assets.xcassets */,
+				AA644F5B2A213F2A0099F023 /* dayplan.entitlements */,
+				AA644F542A213F290099F023 /* dayplan.xcdatamodeld */,
+				AA644F5C2A213F2A0099F023 /* Preview Content */,
+			);
+			path = dayplan;
+			sourceTree = "<group>";
+		};
+		AA644F5C2A213F2A0099F023 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA644F5D2A213F2A0099F023 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA644F662A213F2A0099F023 /* dayplanTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA644F672A213F2A0099F023 /* dayplanTests.swift */,
+			);
+			path = dayplanTests;
+			sourceTree = "<group>";
+		};
+		AA644F702A213F2A0099F023 /* dayplanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA644F712A213F2A0099F023 /* dayplanUITests.swift */,
+				AA644F732A213F2A0099F023 /* dayplanUITestsLaunchTests.swift */,
+			);
+			path = dayplanUITests;
+			sourceTree = "<group>";
+		};
+		AA789A7A2A2A7ED9006ACEE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA644F4C2A213F290099F023 /* dayplan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA644F772A213F2A0099F023 /* Build configuration list for PBXNativeTarget "dayplan" */;
+			buildPhases = (
+				AA644F492A213F290099F023 /* Sources */,
+				AA644F4A2A213F290099F023 /* Frameworks */,
+				AA644F4B2A213F290099F023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA789A802A2A7FB7006ACEE4 /* PBXTargetDependency */,
+				AA789A7E2A2A7F9F006ACEE4 /* PBXTargetDependency */,
+			);
+			name = dayplan;
+			packageProductDependencies = (
+				AA3DB80F2A2A81E70002BBE3 /* LiveViewNative */,
+				AA3DB8112A2A81E70002BBE3 /* BuiltinRegistryGenerator */,
+			);
+			productName = dayplan;
+			productReference = AA644F4D2A213F290099F023 /* dayplan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA644F622A213F2A0099F023 /* dayplanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA644F7A2A213F2A0099F023 /* Build configuration list for PBXNativeTarget "dayplanTests" */;
+			buildPhases = (
+				AA644F5F2A213F2A0099F023 /* Sources */,
+				AA644F602A213F2A0099F023 /* Frameworks */,
+				AA644F612A213F2A0099F023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA644F652A213F2A0099F023 /* PBXTargetDependency */,
+			);
+			name = dayplanTests;
+			productName = dayplanTests;
+			productReference = AA644F632A213F2A0099F023 /* dayplanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA644F6C2A213F2A0099F023 /* dayplanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA644F7D2A213F2A0099F023 /* Build configuration list for PBXNativeTarget "dayplanUITests" */;
+			buildPhases = (
+				AA644F692A213F2A0099F023 /* Sources */,
+				AA644F6A2A213F2A0099F023 /* Frameworks */,
+				AA644F6B2A213F2A0099F023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA644F6F2A213F2A0099F023 /* PBXTargetDependency */,
+			);
+			name = dayplanUITests;
+			productName = dayplanUITests;
+			productReference = AA644F6D2A213F2A0099F023 /* dayplanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA644F452A213F290099F023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AA644F4C2A213F290099F023 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AA644F622A213F2A0099F023 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AA644F4C2A213F290099F023;
+					};
+					AA644F6C2A213F2A0099F023 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AA644F4C2A213F290099F023;
+					};
+				};
+			};
+			buildConfigurationList = AA644F482A213F290099F023 /* Build configuration list for PBXProject "dayplan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA644F442A213F290099F023;
+			packageReferences = (
+				AA3DB80E2A2A81E70002BBE3 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */,
+			);
+			productRefGroup = AA644F4E2A213F290099F023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA644F4C2A213F290099F023 /* dayplan */,
+				AA644F622A213F2A0099F023 /* dayplanTests */,
+				AA644F6C2A213F2A0099F023 /* dayplanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA644F4B2A213F290099F023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA644F5E2A213F2A0099F023 /* Preview Assets.xcassets in Resources */,
+				AA644F5A2A213F2A0099F023 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA644F612A213F2A0099F023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA644F6B2A213F2A0099F023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA644F492A213F290099F023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA644F562A213F290099F023 /* dayplan.xcdatamodeld in Sources */,
+				AA644F512A213F290099F023 /* dayplanApp.swift in Sources */,
+				AA644F582A213F290099F023 /* ContentView.swift in Sources */,
+				AA644F532A213F290099F023 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA644F5F2A213F2A0099F023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA644F682A213F2A0099F023 /* dayplanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA644F692A213F2A0099F023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA644F742A213F2A0099F023 /* dayplanUITestsLaunchTests.swift in Sources */,
+				AA644F722A213F2A0099F023 /* dayplanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA644F652A213F2A0099F023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA644F4C2A213F290099F023 /* dayplan */;
+			targetProxy = AA644F642A213F2A0099F023 /* PBXContainerItemProxy */;
+		};
+		AA644F6F2A213F2A0099F023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA644F4C2A213F290099F023 /* dayplan */;
+			targetProxy = AA644F6E2A213F2A0099F023 /* PBXContainerItemProxy */;
+		};
+		AA789A7E2A2A7F9F006ACEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = AA789A7D2A2A7F9F006ACEE4 /* LiveViewNative */;
+		};
+		AA789A802A2A7FB7006ACEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = AA789A7F2A2A7FB7006ACEE4 /* BuiltinRegistryGenerator */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA644F752A213F2A0099F023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA644F762A213F2A0099F023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA644F782A213F2A0099F023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dayplan/dayplan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dayplan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsnappy.dayplan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA644F792A213F2A0099F023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dayplan/dayplan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dayplan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsnappy.dayplan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA644F7B2A213F2A0099F023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsnappy.dayplanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dayplan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dayplan";
+			};
+			name = Debug;
+		};
+		AA644F7C2A213F2A0099F023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsnappy.dayplanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dayplan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dayplan";
+			};
+			name = Release;
+		};
+		AA644F7E2A213F2A0099F023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsnappy.dayplanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dayplan;
+			};
+			name = Debug;
+		};
+		AA644F7F2A213F2A0099F023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsnappy.dayplanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dayplan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA644F482A213F290099F023 /* Build configuration list for PBXProject "dayplan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA644F752A213F2A0099F023 /* Debug */,
+				AA644F762A213F2A0099F023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA644F772A213F2A0099F023 /* Build configuration list for PBXNativeTarget "dayplan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA644F782A213F2A0099F023 /* Debug */,
+				AA644F792A213F2A0099F023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA644F7A2A213F2A0099F023 /* Build configuration list for PBXNativeTarget "dayplanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA644F7B2A213F2A0099F023 /* Debug */,
+				AA644F7C2A213F2A0099F023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA644F7D2A213F2A0099F023 /* Build configuration list for PBXNativeTarget "dayplanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA644F7E2A213F2A0099F023 /* Debug */,
+				AA644F7F2A213F2A0099F023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA3DB80E2A2A81E70002BBE3 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		AA644F802A213F3D0099F023 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA3DB80F2A2A81E70002BBE3 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA3DB80E2A2A81E70002BBE3 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		AA3DB8112A2A81E70002BBE3 /* BuiltinRegistryGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA3DB80E2A2A81E70002BBE3 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = BuiltinRegistryGenerator;
+		};
+		AA789A7D2A2A7F9F006ACEE4 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA644F802A213F3D0099F023 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		AA789A7F2A2A7FB7006ACEE4 /* BuiltinRegistryGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA644F802A213F3D0099F023 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = BuiltinRegistryGenerator;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		AA644F542A213F290099F023 /* dayplan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA644F552A213F290099F023 /* dayplan.xcdatamodel */,
+			);
+			currentVersion = AA644F552A213F290099F023 /* dayplan.xcdatamodel */;
+			path = dayplan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA644F452A213F290099F023 /* Project object */;
+}
