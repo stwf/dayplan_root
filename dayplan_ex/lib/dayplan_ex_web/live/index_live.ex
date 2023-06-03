@@ -13,9 +13,9 @@ defmodule DayplanExWeb.IndexLive do
   def render(%{platform_id: :swiftui} = assigns) do
     ~Z"""
     <List>
-      <Text id=123>Steven</Text>
-      <Text id=456>Francine</Text>
-      <Text id=789>Lucky</Text>
+      <Text id="123">Steven</Text>
+      <Text id="456">Francine</Text>
+      <Text id="789">Lucky</Text>
     </List>
     """swiftui
   end
