@@ -7,7 +7,11 @@
 # General application configuration
 import Config
 
-config :live_view_native, LiveViewNativeSwiftUi.Platform, app_name: "DayPlan"
+config :live_view_native, :platforms, [LiveViewNativeSwiftUi.Platform]
+
+config :live_view_native, LiveViewNativeSwiftUi.Platform,
+  app_name: "DayPlan",
+  custom_modifiers: []
 
 config :dayplan_ex,
   ecto_repos: [DayplanEx.Repo]
